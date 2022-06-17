@@ -1,0 +1,14 @@
+.hero__text{
+    text-align: center;
+}
+
+.hero__text button{
+    color: var(--clr-neutral);
+    font-weight: var(--ftwt-lg);
+    background-color: var(--ftclr-blue);
+    border: none;
+    padding: 1.2rem 3rem;
+    font-size: 1.2rem;
+    font-family: var(--ft-secondary);
+    border-radius: 1.5rem;
+}

@@ -1,0 +1,25 @@
+:root{
+    --clr-neutral: hsl(0, 0%, 100%);
+    --main-bg-clr: hsl(218, 28%, 13%);
+    --footer-bg-clr: hsl(216, 53%, 9%);
+    --testimonal-bg-clr: hsl(219, 30%, 18%);
+    --intro-bg-clr: hsl(217, 28%, 15%);
+    --ftclr-cyan: hsl(176, 68%, 64%);
+    --ftclr-blue: hsl(198, 60%, 50%);
+    --ftclr-red: hsl(0, 100%, 63%);
+    --ftwt-md: 400;
+    --ftwt-lg: 700;
+    --ft-primary: 'Open Sans';
+    --ft-secondary: 'Raleway';
+}
+
+html{
+    font-size: 14px;
+}
+
+body{
+    margin: 0;
+    font-family: var(--ft-primary);
+    background-color: var(--main-bg-clr);
+    color: var(--clr-neutral);
+}
